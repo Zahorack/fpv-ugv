@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/oholly.DQI/CLionProjects/server-backend/application/main.cpp
+iostream
+-
+../communication/include/TcpSocket.h
+C:/Users/oholly.DQI/CLionProjects/server-backend/communication/include/TcpSocket.h
+
+C:/Users/oholly.DQI/CLionProjects/server-backend/communication/include/Socket.h
+winsock.h
+-
+iostream
+-
+
+C:/Users/oholly.DQI/CLionProjects/server-backend/communication/include/TcpSocket.h
+Socket.h
+C:/Users/oholly.DQI/CLionProjects/server-backend/communication/include/Socket.h
+
