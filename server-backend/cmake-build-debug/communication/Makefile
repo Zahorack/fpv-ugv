@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\oholly.DQI\CLionProjects\server-backend
+CMAKE_SOURCE_DIR = C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,14 +79,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\CMakeFiles C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\communication\CMakeFiles\progress.marks
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 communication/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\CMakeFiles C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\communication\CMakeFiles\progress.marks
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 communication/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 communication/clean
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 communication/clean
 .PHONY : clean
 
 # The main clean target
@@ -96,22 +96,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 communication/preinstall
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 communication/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 communication/preinstall
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 communication/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 communication/CMakeFiles/communication.dir/rule:
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 communication/CMakeFiles/communication.dir/rule
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 communication/CMakeFiles/communication.dir/rule
 .PHONY : communication/CMakeFiles/communication.dir/rule
 
 # Convenience name for target.
@@ -121,7 +121,7 @@ communication: communication/CMakeFiles/communication.dir/rule
 
 # fast build rule for target.
 communication/fast:
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug && $(MAKE) -f communication\CMakeFiles\communication.dir\build.make communication/CMakeFiles/communication.dir/build
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug && $(MAKE) -f communication\CMakeFiles\communication.dir\build.make communication/CMakeFiles/communication.dir/build
 .PHONY : communication/fast
 
 src/Socket.obj: src/Socket.cpp.obj
@@ -130,7 +130,7 @@ src/Socket.obj: src/Socket.cpp.obj
 
 # target to build an object file
 src/Socket.cpp.obj:
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug && $(MAKE) -f communication\CMakeFiles\communication.dir\build.make communication/CMakeFiles/communication.dir/src/Socket.cpp.obj
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug && $(MAKE) -f communication\CMakeFiles\communication.dir\build.make communication/CMakeFiles/communication.dir/src/Socket.cpp.obj
 .PHONY : src/Socket.cpp.obj
 
 src/Socket.i: src/Socket.cpp.i
@@ -139,7 +139,7 @@ src/Socket.i: src/Socket.cpp.i
 
 # target to preprocess a source file
 src/Socket.cpp.i:
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug && $(MAKE) -f communication\CMakeFiles\communication.dir\build.make communication/CMakeFiles/communication.dir/src/Socket.cpp.i
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug && $(MAKE) -f communication\CMakeFiles\communication.dir\build.make communication/CMakeFiles/communication.dir/src/Socket.cpp.i
 .PHONY : src/Socket.cpp.i
 
 src/Socket.s: src/Socket.cpp.s
@@ -148,7 +148,7 @@ src/Socket.s: src/Socket.cpp.s
 
 # target to generate assembly for a file
 src/Socket.cpp.s:
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug && $(MAKE) -f communication\CMakeFiles\communication.dir\build.make communication/CMakeFiles/communication.dir/src/Socket.cpp.s
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug && $(MAKE) -f communication\CMakeFiles\communication.dir\build.make communication/CMakeFiles/communication.dir/src/Socket.cpp.s
 .PHONY : src/Socket.cpp.s
 
 src/TcpSocket.obj: src/TcpSocket.cpp.obj
@@ -157,7 +157,7 @@ src/TcpSocket.obj: src/TcpSocket.cpp.obj
 
 # target to build an object file
 src/TcpSocket.cpp.obj:
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug && $(MAKE) -f communication\CMakeFiles\communication.dir\build.make communication/CMakeFiles/communication.dir/src/TcpSocket.cpp.obj
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug && $(MAKE) -f communication\CMakeFiles\communication.dir\build.make communication/CMakeFiles/communication.dir/src/TcpSocket.cpp.obj
 .PHONY : src/TcpSocket.cpp.obj
 
 src/TcpSocket.i: src/TcpSocket.cpp.i
@@ -166,7 +166,7 @@ src/TcpSocket.i: src/TcpSocket.cpp.i
 
 # target to preprocess a source file
 src/TcpSocket.cpp.i:
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug && $(MAKE) -f communication\CMakeFiles\communication.dir\build.make communication/CMakeFiles/communication.dir/src/TcpSocket.cpp.i
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug && $(MAKE) -f communication\CMakeFiles\communication.dir\build.make communication/CMakeFiles/communication.dir/src/TcpSocket.cpp.i
 .PHONY : src/TcpSocket.cpp.i
 
 src/TcpSocket.s: src/TcpSocket.cpp.s
@@ -175,7 +175,7 @@ src/TcpSocket.s: src/TcpSocket.cpp.s
 
 # target to generate assembly for a file
 src/TcpSocket.cpp.s:
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug && $(MAKE) -f communication\CMakeFiles\communication.dir\build.make communication/CMakeFiles/communication.dir/src/TcpSocket.cpp.s
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug && $(MAKE) -f communication\CMakeFiles\communication.dir\build.make communication/CMakeFiles/communication.dir/src/TcpSocket.cpp.s
 .PHONY : src/TcpSocket.cpp.s
 
 src/UdpSocket.obj: src/UdpSocket.cpp.obj
@@ -184,7 +184,7 @@ src/UdpSocket.obj: src/UdpSocket.cpp.obj
 
 # target to build an object file
 src/UdpSocket.cpp.obj:
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug && $(MAKE) -f communication\CMakeFiles\communication.dir\build.make communication/CMakeFiles/communication.dir/src/UdpSocket.cpp.obj
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug && $(MAKE) -f communication\CMakeFiles\communication.dir\build.make communication/CMakeFiles/communication.dir/src/UdpSocket.cpp.obj
 .PHONY : src/UdpSocket.cpp.obj
 
 src/UdpSocket.i: src/UdpSocket.cpp.i
@@ -193,7 +193,7 @@ src/UdpSocket.i: src/UdpSocket.cpp.i
 
 # target to preprocess a source file
 src/UdpSocket.cpp.i:
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug && $(MAKE) -f communication\CMakeFiles\communication.dir\build.make communication/CMakeFiles/communication.dir/src/UdpSocket.cpp.i
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug && $(MAKE) -f communication\CMakeFiles\communication.dir\build.make communication/CMakeFiles/communication.dir/src/UdpSocket.cpp.i
 .PHONY : src/UdpSocket.cpp.i
 
 src/UdpSocket.s: src/UdpSocket.cpp.s
@@ -202,7 +202,7 @@ src/UdpSocket.s: src/UdpSocket.cpp.s
 
 # target to generate assembly for a file
 src/UdpSocket.cpp.s:
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug && $(MAKE) -f communication\CMakeFiles\communication.dir\build.make communication/CMakeFiles/communication.dir/src/UdpSocket.cpp.s
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug && $(MAKE) -f communication\CMakeFiles\communication.dir\build.make communication/CMakeFiles/communication.dir/src/UdpSocket.cpp.s
 .PHONY : src/UdpSocket.cpp.s
 
 # Help Target
@@ -234,6 +234,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

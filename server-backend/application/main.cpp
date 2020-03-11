@@ -1,28 +1,24 @@
 #include <iostream>
 
 #include "../communication/include/TcpSocket.h"
+#include "../control/include/Control.h"
 
 
 using namespace std;
 
-TcpSocket listener;
 
 int main() {
 
+    TcpSocket listener;
     listener.beginServer(TARGET_PORT);
     listener.listens(5);
 
-    TcpSocket tcp = listener.accepts();
+
+    Control controller(listener.accepts());
+
+    controller.begin();
 
     while(1) {
-        char data[32];
-
-        int ret = tcp.receive(data, 32);
-        if(ret > 0) {
-            cout << data << "\n";
-
-            char message[] = "Message";
-            tcp.send(message, strlen(message));
-        }
+        controller.update();
     }
 }

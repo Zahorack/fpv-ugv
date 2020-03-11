@@ -38,6 +38,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.13.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.13.2/CMakeSystem.cmake"
   "../communication/CMakeLists.txt"
+  "../control/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -50,11 +51,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "communication/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "control/CMakeFiles/CMakeDirectoryInformation.cmake"
   "application/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "communication/CMakeFiles/communication.dir/DependInfo.cmake"
+  "control/CMakeFiles/control.dir/DependInfo.cmake"
   "application/CMakeFiles/application_exe.dir/DependInfo.cmake"
   )

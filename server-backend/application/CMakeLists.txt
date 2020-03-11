@@ -7,3 +7,4 @@ add_executable(application_exe ${SOURCE_FILES})
 
 #include_directories("../communication")
 target_link_libraries(application_exe communication)
+target_link_libraries(application_exe control)

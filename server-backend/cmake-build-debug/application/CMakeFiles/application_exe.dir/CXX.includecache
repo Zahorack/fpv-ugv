@@ -6,19 +6,39 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/oholly.DQI/CLionProjects/server-backend/application/main.cpp
+../communication/include/TcpSocket.h
+Socket.h
+../communication/include/Socket.h
+
+C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/application/main.cpp
 iostream
 -
 ../communication/include/TcpSocket.h
-C:/Users/oholly.DQI/CLionProjects/server-backend/communication/include/TcpSocket.h
+C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/communication/include/TcpSocket.h
+../control/include/Control.h
+C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/control/include/Control.h
 
-C:/Users/oholly.DQI/CLionProjects/server-backend/communication/include/Socket.h
+C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/communication/include/Socket.h
 winsock.h
 -
 iostream
 -
 
-C:/Users/oholly.DQI/CLionProjects/server-backend/communication/include/TcpSocket.h
+C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/communication/include/TcpSocket.h
 Socket.h
-C:/Users/oholly.DQI/CLionProjects/server-backend/communication/include/Socket.h
+C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/communication/include/Socket.h
+
+C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/control/include/Control.h
+TcpSocket.h
+C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/control/include/TcpSocket.h
+Timer.h
+C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/control/include/Timer.h
+conio.h
+-
+
+C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/control/include/Timer.h
+stdint.h
+C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/control/include/stdint.h
+time.h
+-
 

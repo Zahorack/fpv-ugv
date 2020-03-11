@@ -4,13 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/oholly.DQI/CLionProjects/server-backend/application/main.cpp" "C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/application/CMakeFiles/application_exe.dir/main.cpp.obj"
+  "C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/application/main.cpp" "C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/application/CMakeFiles/application_exe.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../communication/include"
+  "../control/include"
   )
 
 # Targets to which this target links.

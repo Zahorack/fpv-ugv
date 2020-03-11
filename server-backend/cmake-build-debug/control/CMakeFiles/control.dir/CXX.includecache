@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../communication/include/Socket.h
+winsock.h
+-
+iostream
+-
+
+../communication/include/TcpSocket.h
+Socket.h
+../communication/include/Socket.h
+
+../control/include/Control.h
+TcpSocket.h
+../control/include/TcpSocket.h
+Timer.h
+../control/include/Timer.h
+conio.h
+-
+
+../control/include/Timer.h
+stdint.h
+../control/include/stdint.h
+time.h
+-
+
+C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/control/src/Control.cpp
+Control.h
+C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/control/src/Control.h
+string.h
+C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/control/src/string.h
+

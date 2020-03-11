@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\oholly.DQI\CLionProjects\server-backend
+CMAKE_SOURCE_DIR = C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include communication/CMakeFiles/communication.dir/depend.make
@@ -59,44 +59,44 @@ include communication/CMakeFiles/communication.dir/flags.make
 communication/CMakeFiles/communication.dir/src/Socket.cpp.obj: communication/CMakeFiles/communication.dir/flags.make
 communication/CMakeFiles/communication.dir/src/Socket.cpp.obj: communication/CMakeFiles/communication.dir/includes_CXX.rsp
 communication/CMakeFiles/communication.dir/src/Socket.cpp.obj: ../communication/src/Socket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object communication/CMakeFiles/communication.dir/src/Socket.cpp.obj"
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\communication && C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\communication.dir\src\Socket.cpp.obj -c C:\Users\oholly.DQI\CLionProjects\server-backend\communication\src\Socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object communication/CMakeFiles/communication.dir/src/Socket.cpp.obj"
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\communication && C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\communication.dir\src\Socket.cpp.obj -c C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\communication\src\Socket.cpp
 
 communication/CMakeFiles/communication.dir/src/Socket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/communication.dir/src/Socket.cpp.i"
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\communication && C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oholly.DQI\CLionProjects\server-backend\communication\src\Socket.cpp > CMakeFiles\communication.dir\src\Socket.cpp.i
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\communication && C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\communication\src\Socket.cpp > CMakeFiles\communication.dir\src\Socket.cpp.i
 
 communication/CMakeFiles/communication.dir/src/Socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/communication.dir/src/Socket.cpp.s"
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\communication && C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oholly.DQI\CLionProjects\server-backend\communication\src\Socket.cpp -o CMakeFiles\communication.dir\src\Socket.cpp.s
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\communication && C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\communication\src\Socket.cpp -o CMakeFiles\communication.dir\src\Socket.cpp.s
 
 communication/CMakeFiles/communication.dir/src/TcpSocket.cpp.obj: communication/CMakeFiles/communication.dir/flags.make
 communication/CMakeFiles/communication.dir/src/TcpSocket.cpp.obj: communication/CMakeFiles/communication.dir/includes_CXX.rsp
 communication/CMakeFiles/communication.dir/src/TcpSocket.cpp.obj: ../communication/src/TcpSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object communication/CMakeFiles/communication.dir/src/TcpSocket.cpp.obj"
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\communication && C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\communication.dir\src\TcpSocket.cpp.obj -c C:\Users\oholly.DQI\CLionProjects\server-backend\communication\src\TcpSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object communication/CMakeFiles/communication.dir/src/TcpSocket.cpp.obj"
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\communication && C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\communication.dir\src\TcpSocket.cpp.obj -c C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\communication\src\TcpSocket.cpp
 
 communication/CMakeFiles/communication.dir/src/TcpSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/communication.dir/src/TcpSocket.cpp.i"
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\communication && C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oholly.DQI\CLionProjects\server-backend\communication\src\TcpSocket.cpp > CMakeFiles\communication.dir\src\TcpSocket.cpp.i
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\communication && C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\communication\src\TcpSocket.cpp > CMakeFiles\communication.dir\src\TcpSocket.cpp.i
 
 communication/CMakeFiles/communication.dir/src/TcpSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/communication.dir/src/TcpSocket.cpp.s"
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\communication && C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oholly.DQI\CLionProjects\server-backend\communication\src\TcpSocket.cpp -o CMakeFiles\communication.dir\src\TcpSocket.cpp.s
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\communication && C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\communication\src\TcpSocket.cpp -o CMakeFiles\communication.dir\src\TcpSocket.cpp.s
 
 communication/CMakeFiles/communication.dir/src/UdpSocket.cpp.obj: communication/CMakeFiles/communication.dir/flags.make
 communication/CMakeFiles/communication.dir/src/UdpSocket.cpp.obj: communication/CMakeFiles/communication.dir/includes_CXX.rsp
 communication/CMakeFiles/communication.dir/src/UdpSocket.cpp.obj: ../communication/src/UdpSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object communication/CMakeFiles/communication.dir/src/UdpSocket.cpp.obj"
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\communication && C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\communication.dir\src\UdpSocket.cpp.obj -c C:\Users\oholly.DQI\CLionProjects\server-backend\communication\src\UdpSocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object communication/CMakeFiles/communication.dir/src/UdpSocket.cpp.obj"
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\communication && C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\communication.dir\src\UdpSocket.cpp.obj -c C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\communication\src\UdpSocket.cpp
 
 communication/CMakeFiles/communication.dir/src/UdpSocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/communication.dir/src/UdpSocket.cpp.i"
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\communication && C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oholly.DQI\CLionProjects\server-backend\communication\src\UdpSocket.cpp > CMakeFiles\communication.dir\src\UdpSocket.cpp.i
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\communication && C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\communication\src\UdpSocket.cpp > CMakeFiles\communication.dir\src\UdpSocket.cpp.i
 
 communication/CMakeFiles/communication.dir/src/UdpSocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/communication.dir/src/UdpSocket.cpp.s"
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\communication && C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oholly.DQI\CLionProjects\server-backend\communication\src\UdpSocket.cpp -o CMakeFiles\communication.dir\src\UdpSocket.cpp.s
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\communication && C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\communication\src\UdpSocket.cpp -o CMakeFiles\communication.dir\src\UdpSocket.cpp.s
 
 communication: communication/CMakeFiles/communication.dir/src/Socket.cpp.obj
 communication: communication/CMakeFiles/communication.dir/src/TcpSocket.cpp.obj
@@ -111,10 +111,10 @@ communication/CMakeFiles/communication.dir/build: communication
 .PHONY : communication/CMakeFiles/communication.dir/build
 
 communication/CMakeFiles/communication.dir/clean:
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\communication && $(CMAKE_COMMAND) -P CMakeFiles\communication.dir\cmake_clean.cmake
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\communication && $(CMAKE_COMMAND) -P CMakeFiles\communication.dir\cmake_clean.cmake
 .PHONY : communication/CMakeFiles/communication.dir/clean
 
 communication/CMakeFiles/communication.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\oholly.DQI\CLionProjects\server-backend C:\Users\oholly.DQI\CLionProjects\server-backend\communication C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\communication C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\communication\CMakeFiles\communication.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\communication C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\communication C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\communication\CMakeFiles\communication.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : communication/CMakeFiles/communication.dir/depend
 

@@ -5,26 +5,27 @@
 		<Option title="application"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\application\;CMake Files\communication\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\application\;CMake Files\communication\;CMake Files\control\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/application"/>
+				<Option working_dir="C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/application"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="application_exe">
-				<Option output="C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/application/application_exe.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/application"/>
+				<Option output="C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/application/application_exe.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/application"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/oholly.DQI/CLionProjects/server-backend/communication/include"/>
+					<Add directory="C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/communication/include"/>
+					<Add directory="C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/control/include"/>
 					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
 					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
@@ -37,20 +38,21 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 application_exe"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 application_exe"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="application_exe/fast">
-				<Option output="C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/application/application_exe.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/application"/>
+				<Option output="C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/application/application_exe.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/application"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/oholly.DQI/CLionProjects/server-backend/communication/include"/>
+					<Add directory="C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/communication/include"/>
+					<Add directory="C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/control/include"/>
 					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
 					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
@@ -63,33 +65,42 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 application_exe/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 application_exe/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/application/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/oholly.DQI/CLionProjects/server-backend/application/main.cpp">
+		<Unit filename="C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/application/main.cpp">
 			<Option target="application_exe"/>
 		</Unit>
-		<Unit filename="C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/communication/CMakeFiles/communication.dir/src/Socket.cpp.obj">
+		<Unit filename="C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/communication/CMakeFiles/communication.dir/src/Socket.cpp.obj">
 			<Option target="application_exe"/>
 		</Unit>
-		<Unit filename="C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/communication/CMakeFiles/communication.dir/src/TcpSocket.cpp.obj">
+		<Unit filename="C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/communication/CMakeFiles/communication.dir/src/TcpSocket.cpp.obj">
 			<Option target="application_exe"/>
 		</Unit>
-		<Unit filename="C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/communication/CMakeFiles/communication.dir/src/UdpSocket.cpp.obj">
+		<Unit filename="C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/communication/CMakeFiles/communication.dir/src/UdpSocket.cpp.obj">
 			<Option target="application_exe"/>
 		</Unit>
-		<Unit filename="C:/Users/oholly.DQI/CLionProjects/server-backend/CMakeLists.txt">
+		<Unit filename="C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/control/CMakeFiles/control.dir/src/Control.cpp.obj">
+			<Option target="application_exe"/>
+		</Unit>
+		<Unit filename="C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/control/CMakeFiles/control.dir/src/Timer.cpp.obj">
+			<Option target="application_exe"/>
+		</Unit>
+		<Unit filename="C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/oholly.DQI/CLionProjects/server-backend/application/CMakeLists.txt">
+		<Unit filename="C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/application/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\application\"/>
 		</Unit>
-		<Unit filename="C:/Users/oholly.DQI/CLionProjects/server-backend/communication/CMakeLists.txt">
+		<Unit filename="C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/communication/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\communication\"/>
+		</Unit>
+		<Unit filename="C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/control/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\control\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

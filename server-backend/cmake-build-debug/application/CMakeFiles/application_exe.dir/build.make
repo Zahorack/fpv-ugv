@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\oholly.DQI\CLionProjects\server-backend
+CMAKE_SOURCE_DIR = C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include application/CMakeFiles/application_exe.dir/depend.make
@@ -59,16 +59,16 @@ include application/CMakeFiles/application_exe.dir/flags.make
 application/CMakeFiles/application_exe.dir/main.cpp.obj: application/CMakeFiles/application_exe.dir/flags.make
 application/CMakeFiles/application_exe.dir/main.cpp.obj: application/CMakeFiles/application_exe.dir/includes_CXX.rsp
 application/CMakeFiles/application_exe.dir/main.cpp.obj: ../application/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object application/CMakeFiles/application_exe.dir/main.cpp.obj"
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\application && C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\application_exe.dir\main.cpp.obj -c C:\Users\oholly.DQI\CLionProjects\server-backend\application\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object application/CMakeFiles/application_exe.dir/main.cpp.obj"
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\application && C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\application_exe.dir\main.cpp.obj -c C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\application\main.cpp
 
 application/CMakeFiles/application_exe.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/application_exe.dir/main.cpp.i"
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\application && C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oholly.DQI\CLionProjects\server-backend\application\main.cpp > CMakeFiles\application_exe.dir\main.cpp.i
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\application && C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\application\main.cpp > CMakeFiles\application_exe.dir\main.cpp.i
 
 application/CMakeFiles/application_exe.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/application_exe.dir/main.cpp.s"
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\application && C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oholly.DQI\CLionProjects\server-backend\application\main.cpp -o CMakeFiles\application_exe.dir\main.cpp.s
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\application && C:\TDM-GCC-64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\application\main.cpp -o CMakeFiles\application_exe.dir\main.cpp.s
 
 # Object files for target application_exe
 application_exe_OBJECTS = \
@@ -76,20 +76,24 @@ application_exe_OBJECTS = \
 
 # External object files for target application_exe
 application_exe_EXTERNAL_OBJECTS = \
-"C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/communication/CMakeFiles/communication.dir/src/Socket.cpp.obj" \
-"C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/communication/CMakeFiles/communication.dir/src/TcpSocket.cpp.obj" \
-"C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/communication/CMakeFiles/communication.dir/src/UdpSocket.cpp.obj"
+"C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/communication/CMakeFiles/communication.dir/src/Socket.cpp.obj" \
+"C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/communication/CMakeFiles/communication.dir/src/TcpSocket.cpp.obj" \
+"C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/communication/CMakeFiles/communication.dir/src/UdpSocket.cpp.obj" \
+"C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/control/CMakeFiles/control.dir/src/Control.cpp.obj" \
+"C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/control/CMakeFiles/control.dir/src/Timer.cpp.obj"
 
 application/application_exe.exe: application/CMakeFiles/application_exe.dir/main.cpp.obj
 application/application_exe.exe: communication/CMakeFiles/communication.dir/src/Socket.cpp.obj
 application/application_exe.exe: communication/CMakeFiles/communication.dir/src/TcpSocket.cpp.obj
 application/application_exe.exe: communication/CMakeFiles/communication.dir/src/UdpSocket.cpp.obj
+application/application_exe.exe: control/CMakeFiles/control.dir/src/Control.cpp.obj
+application/application_exe.exe: control/CMakeFiles/control.dir/src/Timer.cpp.obj
 application/application_exe.exe: application/CMakeFiles/application_exe.dir/build.make
 application/application_exe.exe: application/CMakeFiles/application_exe.dir/linklibs.rsp
 application/application_exe.exe: application/CMakeFiles/application_exe.dir/objects1.rsp
 application/application_exe.exe: application/CMakeFiles/application_exe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable application_exe.exe"
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\application && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\application_exe.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable application_exe.exe"
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\application && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\application_exe.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 application/CMakeFiles/application_exe.dir/build: application/application_exe.exe
@@ -97,10 +101,10 @@ application/CMakeFiles/application_exe.dir/build: application/application_exe.ex
 .PHONY : application/CMakeFiles/application_exe.dir/build
 
 application/CMakeFiles/application_exe.dir/clean:
-	cd /d C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\application && $(CMAKE_COMMAND) -P CMakeFiles\application_exe.dir\cmake_clean.cmake
+	cd /d C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\application && $(CMAKE_COMMAND) -P CMakeFiles\application_exe.dir\cmake_clean.cmake
 .PHONY : application/CMakeFiles/application_exe.dir/clean
 
 application/CMakeFiles/application_exe.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\oholly.DQI\CLionProjects\server-backend C:\Users\oholly.DQI\CLionProjects\server-backend\application C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\application C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\application\CMakeFiles\application_exe.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\application C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\application C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\application\CMakeFiles\application_exe.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : application/CMakeFiles/application_exe.dir/depend
 

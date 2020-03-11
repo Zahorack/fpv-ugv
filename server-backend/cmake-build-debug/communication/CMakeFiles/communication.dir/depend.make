@@ -8,5 +8,7 @@ communication/CMakeFiles/communication.dir/src/TcpSocket.cpp.obj: ../communicati
 communication/CMakeFiles/communication.dir/src/TcpSocket.cpp.obj: ../communication/include/TcpSocket.h
 communication/CMakeFiles/communication.dir/src/TcpSocket.cpp.obj: ../communication/src/TcpSocket.cpp
 
+communication/CMakeFiles/communication.dir/src/UdpSocket.cpp.obj: ../communication/include/Socket.h
+communication/CMakeFiles/communication.dir/src/UdpSocket.cpp.obj: ../communication/include/UdpSocket.h
 communication/CMakeFiles/communication.dir/src/UdpSocket.cpp.obj: ../communication/src/UdpSocket.cpp
 

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/oholly.DQI/CLionProjects/server-backend/application
+# Install script for directory: C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/application
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

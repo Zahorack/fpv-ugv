@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/oholly.DQI/CLionProjects/server-backend/communication/src/Socket.cpp" "C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/communication/CMakeFiles/communication.dir/src/Socket.cpp.obj"
-  "C:/Users/oholly.DQI/CLionProjects/server-backend/communication/src/TcpSocket.cpp" "C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/communication/CMakeFiles/communication.dir/src/TcpSocket.cpp.obj"
-  "C:/Users/oholly.DQI/CLionProjects/server-backend/communication/src/UdpSocket.cpp" "C:/Users/oholly.DQI/CLionProjects/server-backend/cmake-build-debug/communication/CMakeFiles/communication.dir/src/UdpSocket.cpp.obj"
+  "C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/communication/src/Socket.cpp" "C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/communication/CMakeFiles/communication.dir/src/Socket.cpp.obj"
+  "C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/communication/src/TcpSocket.cpp" "C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/communication/CMakeFiles/communication.dir/src/TcpSocket.cpp.obj"
+  "C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/communication/src/UdpSocket.cpp" "C:/Users/oholly.DQI/CLionProjects/fpv-ugv/server-backend/cmake-build-debug/communication/CMakeFiles/communication.dir/src/UdpSocket.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

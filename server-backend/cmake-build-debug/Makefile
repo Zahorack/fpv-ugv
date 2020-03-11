@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\oholly.DQI\CLionProjects\server-backend
+CMAKE_SOURCE_DIR = C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\CMakeFiles C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\CMakeFiles C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oholly.DQI\CLionProjects\server-backend\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,19 @@ communication/fast:
 .PHONY : communication/fast
 
 #=============================================================================
+# Target rules for targets named control
+
+# Build rule for target.
+control: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 control
+.PHONY : control
+
+# fast build rule for target.
+control/fast:
+	$(MAKE) -f control\CMakeFiles\control.dir\build.make control/CMakeFiles/control.dir/build
+.PHONY : control/fast
+
+#=============================================================================
 # Target rules for targets named application_exe
 
 # Build rule for target.
@@ -144,6 +157,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... communication
+	@echo ... control
 	@echo ... application_exe
 .PHONY : help
 
