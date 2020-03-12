@@ -18,7 +18,7 @@ public:
     ~UdpSocket();
 
     void beginServer(int port);
-    void beginClient();
+    void beginClient(char *ip, int port);
 };
 
 #endif //IOT_CONTROLLER_SOCKET_H

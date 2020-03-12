@@ -38,10 +38,10 @@ void UdpSocket::beginServer(int port)
     binds(port);
 }
 
-void UdpSocket::beginClient()
+void UdpSocket::beginClient(char *ip, int port)
 {
     create();
-    connects();
+    connects(ip, port);
 }
 
 

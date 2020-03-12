@@ -7,6 +7,7 @@
 
 #include <winsock.h>
 #include <iostream>
+#include <string>
 
 #define TARGET_PORT 54321
 
@@ -22,7 +23,7 @@ protected:
     virtual void create() = 0;
 
     void binds(int port);
-    void connects();
+    void connects(char *ip, int);
     void close();
 public:
     Socket();

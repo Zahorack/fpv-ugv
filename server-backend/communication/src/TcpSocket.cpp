@@ -27,10 +27,10 @@ void TcpSocket::beginServer(int port)
     binds(port);
 }
 
-void TcpSocket::beginClient()
+void TcpSocket::beginClient(char *ip, int port)
 {
     create();
-    connects();
+    connects(ip, port);
 }
 
 void TcpSocket::create()

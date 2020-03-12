@@ -22,11 +22,19 @@ Socket::~Socket()
 }
 
 
-void Socket::connects()
+void Socket::connects(char *ip, int port)
 {
+
+    m_ipAddress.sin_family = AF_INET;
+    m_ipAddress.sin_port = htons(port);
+    m_ipAddress.sin_addr.s_addr = inet_addr(ip);
+
     if(connect(m_socketFd, (struct sockaddr *)&m_ipAddress, sizeof(m_ipAddress)) < 0) {
         cout<<("\n Error : Connect Failed \n");
         exit(0);
+    }
+    else{
+        cout<<"Connected\n";
     }
 }
 
