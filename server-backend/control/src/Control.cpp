@@ -8,6 +8,7 @@
 static HANDLE s_inputThreadHandle, s_receiveThreadHandle;
 static controlData_t s_controlData;
 
+
 LPTHREAD_START_ROUTINE input_thread_function()
 {
     while(1) {

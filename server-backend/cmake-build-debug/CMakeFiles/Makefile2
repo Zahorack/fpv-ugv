@@ -195,8 +195,8 @@ application/preinstall:
 # Target rules for target application/CMakeFiles/application_exe.dir
 
 # All Build rule for target.
-application/CMakeFiles/application_exe.dir/all: communication/CMakeFiles/communication.dir/all
 application/CMakeFiles/application_exe.dir/all: control/CMakeFiles/control.dir/all
+application/CMakeFiles/application_exe.dir/all: communication/CMakeFiles/communication.dir/all
 	$(MAKE) -f application\CMakeFiles\application_exe.dir\build.make application/CMakeFiles/application_exe.dir/depend
 	$(MAKE) -f application\CMakeFiles\application_exe.dir\build.make application/CMakeFiles/application_exe.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\oholly.DQI\CLionProjects\fpv-ugv\server-backend\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target application_exe"

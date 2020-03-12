@@ -1,2 +1,0 @@
-C:\MinGW\bin\ar.exe qc libcommunication_lib.a  CMakeFiles/communication_lib.dir/src/Socket.cpp.obj CMakeFiles/communication_lib.dir/src/TcpSocket.cpp.obj CMakeFiles/communication_lib.dir/src/UdpSocket.cpp.obj
-C:\MinGW\bin\ranlib.exe libcommunication_lib.a

@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\ExampleStatic.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\ExampleStatic.dir/objects.a @CMakeFiles\ExampleStatic.dir\objects1.rsp
-C:\TDM-GCC-64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\ExampleStatic.dir/objects.a -Wl,--no-whole-archive  -o ExampleStatic.exe -Wl,--out-implib,libExampleStatic.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ExampleStatic.dir\linklibs.rsp
