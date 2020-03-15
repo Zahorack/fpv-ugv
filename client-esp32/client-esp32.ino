@@ -1,5 +1,6 @@
 #include <WiFi.h>
 #include "Arduino.h"
+//#include <ESP8266WiFi.h>
 
 #include "videostream.h"
 #include "control.h"
@@ -17,12 +18,18 @@ WiFiServer server_socket(port);
 
 controlData_t controlData;
 
+
 void setup() {
 		Serial.begin(115200);
 		Serial.setDebugOutput(false);
 
-		setupCameraServer();
+    WiFi.disconnect();
+//    WiFi.config(INADDR_NONE, INADDR_NONE, INADDR_NONE); 
+    WiFi.setHostname("esp32");
+    WiFi.mode(WIFI_STA);
 
+		setupCameraServer();
+ 
 		// Wi-Fi connection
 		WiFi.begin(ssid, password);
 		while (WiFi.status() != WL_CONNECTED) {
@@ -34,6 +41,7 @@ void setup() {
 		
 		Serial.print("Camera Stream Ready! Go to: http://");
 		Serial.print(WiFi.localIP());
+    
 
 /* Tcp client socket implmentation*/
 //		while (!socket.connect(hostIP, port)) {
@@ -76,13 +84,15 @@ void loop() {
 				Serial.print(controlData.right);
 				Serial.print("	");
 				Serial.print(controlData.left);
-				Serial.print("\n");
+				Serial.print("\n\r");
             }
             else {
             	Serial.println("Packet mark error");
             }
         }
 		}
+
+
 		
 		socket.stop();
 		Serial.println("Client disconnected");
