@@ -3,9 +3,10 @@
 
 #include "videostream.h"
 #include "control.h"
+#include "config.h"
 
-const char* ssid = "xxx";
-const char* password = "xxx";
+const char* ssid = CONFIG_SSID;
+const char* password = CONFIG_PASSWORD;
 
 const uint16_t port = 54321;
 const char * hostIP = "192.168.100.5";
@@ -87,7 +88,3 @@ void loop() {
 		Serial.println("Client disconnected");
 	}
 }
-
-
-
-
